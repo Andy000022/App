@@ -1,0 +1,7 @@
+ instalar 
+
+pip install pyqt5
+pip install pyinstaller
+pip install openpyxl
+pip install bcrypt
+

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VerRegistro</class>
+ <widget class="QDialog" name="VerRegistro">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>550</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>550</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(95, 136, 202);</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>361</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(200, 226, 249);
+font: 10pt &quot;Arial&quot;;
+border-radius:15px;
+color:rgb(0, 0,0);
+border-color:rgb(0, 0,0);
+</string>
+   </property>
+   <row>
+    <property name="text">
+     <string>1</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>2</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>3</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Cedula</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+    <property name="background">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="foreground">
+     <brush brushstyle="SolidPattern">
+      <color alpha="255">
+       <red>14</red>
+       <green>0</green>
+       <blue>86</blue>
+      </color>
+     </brush>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Entrada</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+    <property name="foreground">
+     <brush brushstyle="SolidPattern">
+      <color alpha="255">
+       <red>5</red>
+       <green>0</green>
+       <blue>76</blue>
+      </color>
+     </brush>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Salida</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+    <property name="background">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="foreground">
+     <brush brushstyle="SolidPattern">
+      <color alpha="255">
+       <red>5</red>
+       <green>0</green>
+       <blue>83</blue>
+      </color>
+     </brush>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:15px;
+font: 12pt &quot;Arial&quot;;
+background-color: rgb(210, 236, 239);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Ver Registro de Empleados&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_regresar">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>470</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:6px;
+font: 10pt &quot;Arial&quot;;
+background-color: rgb(255, 48, 48);</string>
+   </property>
+   <property name="text">
+    <string>Volver</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>10</y>
+     <width>95</width>
+     <height>133</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(/img/logo.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/logo.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_guardar_como">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>430</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:6px;
+font: 10pt &quot;Arial&quot;;
+background-color: rgb(255, 48, 48);</string>
+   </property>
+   <property name="text">
+    <string>Guardar como</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
